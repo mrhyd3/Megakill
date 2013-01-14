@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.badlogic.gdx:gdx-platform:natives-mac:0.9.8-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx-platform/0.9.8-SNAPSHOT/gdx-platform-0.9.8-SNAPSHOT-natives-mac.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx-platform/0.9.8-SNAPSHOT/gdx-platform-0.9.8-SNAPSHOT-natives-mac-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx-platform/0.9.8-SNAPSHOT/gdx-platform-0.9.8-SNAPSHOT-natives-mac-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

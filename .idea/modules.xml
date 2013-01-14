@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Megakill.iml" filepath="$PROJECT_DIR$/Megakill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/Megakill-android.iml" filepath="$PROJECT_DIR$/android/Megakill-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/Megakill-core.iml" filepath="$PROJECT_DIR$/core/Megakill-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desktop/Megakill-desktop.iml" filepath="$PROJECT_DIR$/desktop/Megakill-desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/html/Megakill-html.iml" filepath="$PROJECT_DIR$/html/Megakill-html.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,4 +1,4 @@
 Megakill
 ========
 
-Asteroid look-a-like
+Asteroids look-a-like

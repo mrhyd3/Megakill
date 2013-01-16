@@ -1,13 +1,15 @@
 <component name="libraryTable">
   <library name="Maven: com.badlogic.gdx:gdx:sources:0.9.8-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx/0.9.8-SNAPSHOT/gdx-0.9.8-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx/0.9.8-SNAPSHOT/gdx-0.9.8-20130114.215652-1-sources.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx/0.9.8-SNAPSHOT/gdx-0.9.8-SNAPSHOT-sources-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx/0.9.8-SNAPSHOT/gdx-0.9.8-20130114.215652-1-sources-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx/0.9.8-SNAPSHOT/gdx-0.9.8-SNAPSHOT-sources-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx/0.9.8-SNAPSHOT/gdx-0.9.8-20130114.215652-1-sources-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

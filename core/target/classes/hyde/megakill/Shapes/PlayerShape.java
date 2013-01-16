@@ -3,63 +3,75 @@ package hyde.megakill.Shapes;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
-import com.badlogic.gdx.math.Vector2;
 import hyde.megakill.core.GlobalValues;
 import hyde.megakill.input.Event;
 import hyde.megakill.input.KeyboardAndMouse;
 
-public class PlayerShape implements Shape {
+public class PlayerShape extends Shape {
     private float length = 25.0f,
-            rotateSpeed = 5;
+            rotateSpeed = 1;
 
-    private double Xspeed = 0, Yspeed = 0;
+    private double xForwardMomentum = 0,
+            yForwardMomentum = 0,
+            speed = 0,
+            speedIncrement = 0.1;
 
-    private int speed = 0,
-            angle = 0;
+    private int angle = 0,
+            angleFromLastForwardThrust = 0;
 
-    private Vector2 pos = new Vector2(GlobalValues.screenWidth / 2,
-            GlobalValues.screenHeight / 2);
+    private boolean isRotateingLeft = false,
+                    isRotateingRight = false,
+                    isMovingForward = false,
+                    isMovingBackwards = false,
+                    isShooting = false;
 
     public PlayerShape() {
+        pos.x = GlobalValues.screenWidth / 2;
+        pos.y = GlobalValues.screenHeight / 2;
+
         KeyboardAndMouse keyboardAndMouse = ((KeyboardAndMouse) Gdx.input.getInputProcessor());
         keyboardAndMouse.addEvent(Input.Keys.LEFT, new Event() {
             @Override
-            public void action() {
-                rotateLeft();
+            public void action(boolean keyDown) {
+                isRotateingLeft = keyDown;
             }
         });
         keyboardAndMouse.addEvent(Input.Keys.RIGHT, new Event() {
             @Override
-            public void action() {
-                rotateRight();
+            public void action(boolean keyDown) {
+                isRotateingRight = keyDown;
             }
         });
         keyboardAndMouse.addEvent(Input.Keys.UP, new Event() {
             @Override
-            public void action() {
-                moveForward();
+            public void action(boolean keyDown) {
+                isMovingForward = keyDown;
             }
         });
-        keyboardAndMouse.addEvent(Input.Keys.BACK, new Event() {
+        keyboardAndMouse.addEvent(Input.Keys.DOWN, new Event() {
             @Override
-            public void action() {
-                moveBackwards();
+            public void action(boolean keyDown) {
+                isMovingBackwards = keyDown;
+            }
+        });
+        keyboardAndMouse.addEvent(Input.Keys.SPACE, new Event() {
+            @Override
+            public void action(boolean keyDown) {
+                isShooting = keyDown;
             }
         });
     }
 
     private void moveBackwards() {
         if (speed > 0) {
-            speed--;
-            //calc();
-            Xspeed--;
-            Yspeed--;
+            speed-=speedIncrement;
+            calc(false);
         }
     }
 
     private void moveForward() {
-        speed++;
-        calc();
+        speed+=speedIncrement;
+        calc(true);
     }
 
     public void rotateLeft() {
@@ -68,25 +80,33 @@ public class PlayerShape implements Shape {
     public void rotateRight() {
         angle -= rotateSpeed;
     }
-    private void calc() {
-        Xspeed = Math.sin(Math.toRadians(angle)) * speed;
-        Yspeed = Math.cos(Math.toRadians(angle)) * speed;
+    public void shoot() {
 
-         /* facing = angle.toRadians
-        Xforce = sin(facing) * acceleration
-        Yforce = cos(facing) * acceleration
-
-        speed = Sqr((Xspeed + Xforce)^2 + (Yspeed + Yforce)^2)
-        direction = Atn((Xspeed + Xforce)/(Yspeed + Yforce))
-        if (Yspeed + Yforce < 0) direction = direction + Pi
-         */
+    }
+    private void calc(boolean changeAngle) {
+        if (changeAngle) {
+            xForwardMomentum = Math.sin(Math.toRadians(-angle)) * speed;
+            yForwardMomentum = Math.cos(Math.toRadians(-angle)) * speed;
+            angleFromLastForwardThrust = angle;
+        } else {
+            xForwardMomentum = Math.sin(Math.toRadians(-angleFromLastForwardThrust)) * speed;
+            yForwardMomentum = Math.cos(Math.toRadians(-angleFromLastForwardThrust)) * speed;
+        }
+    }
+    private void debugPrint() {
+        System.out.println("xForwardMomentum = " + xForwardMomentum);
+        System.out.println("yForwardMomentum = " + yForwardMomentum);
+        System.out.println("speed = " + speed);
+        System.out.println("angle = " + angle);
+        System.out.println("pos = " + pos);
     }
     @Override
     public void render(ShapeRenderer shapeRenderer) {
         ifOnEdgeMoveToOppositeEdge();
+        moveAndRotateShip();
 
-        pos.x += Xspeed;
-        pos.y += Yspeed;
+        pos.x += xForwardMomentum;
+        pos.y += yForwardMomentum;
 
         shapeRenderer.identity();
         shapeRenderer.translate(pos.x, pos.y, 0);
@@ -101,21 +121,19 @@ public class PlayerShape implements Shape {
         shapeRenderer.line(length/2,length,0,0);*/
         shapeRenderer.end();
 
-        shapeRenderer.begin(ShapeRenderer.ShapeType.Line);
-        shapeRenderer.setColor(0,1,0,1);
-        shapeRenderer.line(length / 2, 0, length, 0);
-        shapeRenderer.end();
 
     }
 
-    private void ifOnEdgeMoveToOppositeEdge() {
-        if (pos.x > GlobalValues.screenWidth)
-            pos.x = 0;
-        if (pos.x < 0)
-            pos.x = GlobalValues.screenWidth;
-        if (pos.y > GlobalValues.screenHeight)
-            pos.y = 0;
-        if (pos.y < 0)
-            pos.y = GlobalValues.screenHeight;
+    private void moveAndRotateShip() {
+        if (isRotateingLeft)
+            rotateLeft();
+        if (isRotateingRight)
+            rotateRight();
+        if (isMovingBackwards)
+            moveBackwards();
+        if (isMovingForward)
+            moveForward();
     }
+
+
 }

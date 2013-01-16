@@ -1,5 +1,5 @@
 package hyde.megakill.input;
 
 public interface Event {
-    public void action();
+    public void action(boolean keyDown);
 }

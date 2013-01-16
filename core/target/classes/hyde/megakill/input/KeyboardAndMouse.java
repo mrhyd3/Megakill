@@ -7,13 +7,15 @@ import com.badlogic.gdx.InputProcessor;
 import java.util.HashMap;
 import java.util.Map;
 
+
+
 public class KeyboardAndMouse implements InputProcessor {
     private HashMap<Integer, Event> actions = new HashMap<Integer, Event>();
 
     public KeyboardAndMouse() {
         actions.put(Input.Keys.ESCAPE,new Event() {
             @Override
-            public void action() {
+            public void action(boolean keyDown) {
                 Gdx.app.exit();
             }
         });
@@ -32,7 +34,7 @@ public class KeyboardAndMouse implements InputProcessor {
     @Override
     public boolean keyDown(int keycode) {
         if (actions.get(keycode) != null ) {
-            actions.get(keycode).action();
+            actions.get(keycode).action(true);
             return true;
         }
         return false;
@@ -40,6 +42,10 @@ public class KeyboardAndMouse implements InputProcessor {
 
     @Override
     public boolean keyUp(int keycode) {
+        if (actions.get(keycode) != null ) {
+            actions.get(keycode).action(false);
+            return true;
+        }
         return false;
     }
 

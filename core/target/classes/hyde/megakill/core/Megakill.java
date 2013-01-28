@@ -1,11 +1,9 @@
 package hyde.megakill.core;
 
 import com.badlogic.gdx.graphics.GL10;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
-import hyde.megakill.Shapes.PlayerShape;
+import hyde.megakill.shapes.PlayerShape;
 import hyde.megakill.input.KeyboardAndMouse;
 
 public class Megakill implements ApplicationListener {

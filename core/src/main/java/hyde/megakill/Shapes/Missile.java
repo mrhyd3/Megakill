@@ -1,4 +1,4 @@
-package hyde.megakill.Shapes;
+package hyde.megakill.shapes;
 
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 

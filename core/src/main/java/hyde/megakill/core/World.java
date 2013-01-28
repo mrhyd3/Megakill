@@ -2,8 +2,8 @@ package hyde.megakill.core;
 
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
-import hyde.megakill.Shapes.Asteroid;
-import hyde.megakill.Shapes.Shape;
+import hyde.megakill.shapes.Asteroid;
+import hyde.megakill.shapes.Shape;
 
 import java.util.ArrayList;
 
@@ -19,7 +19,7 @@ public class World {
                 GlobalValues.screenHeight);
         shapeRenderer = new ShapeRenderer();
 
-        for (int i=0; i<10; i++)
+        for (int i=0; i<1; i++)
             addShape(new Asteroid());
     }
 

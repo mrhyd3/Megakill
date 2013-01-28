@@ -43,7 +43,7 @@
 				<module>desktop</module>
 			</modules>
 		</profile>
-		<profile>
+		<!--<profile>
 			<id>android</id>
 			<modules>
 				<module>android</module>
@@ -54,7 +54,7 @@
 			<modules>
 				<module>html</module>
 			</modules>
-		</profile>
+		</profile>-->
 	</profiles>
 
 	<modules>

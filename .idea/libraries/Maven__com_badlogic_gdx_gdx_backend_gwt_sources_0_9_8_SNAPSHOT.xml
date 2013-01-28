@@ -4,10 +4,10 @@
       <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx-backend-gwt/0.9.8-SNAPSHOT/gdx-backend-gwt-0.9.8-SNAPSHOT-sources.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx-backend-gwt/0.9.8-SNAPSHOT/gdx-backend-gwt-0.9.8-SNAPSHOT-sources-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx-backend-gwt/0.9.8-SNAPSHOT/gdx-backend-gwt-0.9.8-SNAPSHOT-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx-backend-gwt/0.9.8-SNAPSHOT/gdx-backend-gwt-0.9.8-SNAPSHOT-sources-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/badlogic/gdx/gdx-backend-gwt/0.9.8-SNAPSHOT/gdx-backend-gwt-0.9.8-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

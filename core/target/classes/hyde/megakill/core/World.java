@@ -2,6 +2,8 @@ package hyde.megakill.core;
 
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import hyde.megakill.shapes.Asteroid;
 import hyde.megakill.shapes.Missile;
 import hyde.megakill.shapes.PlayerShape;
@@ -15,6 +17,7 @@ public class World {
 
     ArrayList<Shape> asteroids = new ArrayList<Shape>();
     PlayerShape player = new PlayerShape();
+    boolean gameOver = false;
 
     public World() {
         camera = new OrthographicCamera();
@@ -33,9 +36,13 @@ public class World {
         camera.update();
         checkCollisions();
         shapeRenderer.setProjectionMatrix(camera.combined);
-        player.render(shapeRenderer);
-        for ( Shape shape : asteroids)
-            shape.render(shapeRenderer);
+        if (!gameOver) {
+            player.render(shapeRenderer);
+            for ( Shape shape : asteroids)
+                shape.render(shapeRenderer);
+        } else {
+
+        }
     }
 
     private void checkCollisions() {
@@ -43,6 +50,7 @@ public class World {
             if ( collides(player.getPos().x, player.getPos().y, 25, 
                     asteroid.getPos().x, asteroid.getPos().y, 25) )
                 System.out.println("player collided with asteroid");
+
 
         }
         for (Missile missile : player.getMissiles() ) {

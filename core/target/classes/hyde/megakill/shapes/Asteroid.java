@@ -11,7 +11,6 @@ import java.util.ArrayList;
 public class Asteroid extends Shape {
     ArrayList<Vector2> points = new ArrayList<Vector2>();
 
-    boolean done = false;
     int moveAmount = 0,
         moveDirection = 0,
         xSpeed = 0,
@@ -24,7 +23,7 @@ public class Asteroid extends Shape {
         speed += 1;
         speed /= 10;
         makeAsteroidGraphics();
-        done = true;
+
     }
 
     private void makeAsteroidGraphics() {
@@ -69,9 +68,6 @@ public class Asteroid extends Shape {
 
     @Override
     public void render(ShapeRenderer shapeRenderer) {
-        if (!done)
-            return;
-
         calc(true);
 
         ifOnEdgeMoveToOppositeEdge();
@@ -79,6 +75,14 @@ public class Asteroid extends Shape {
     }
 
     private void createLinesBetweenPoints(ShapeRenderer shapeRenderer) {
+        if (isDestroyed) {
+            double angle=0;
+            for (int i=0; i<points.size(); i+=1) {
+                points.get(i).x -= Math.sin(Math.toRadians(-angle)) * 1;
+                points.get(i).y -= Math.cos(Math.toRadians(-angle)) * 1;
+                angle += 360 / points.size();
+            }
+        }
         shapeRenderer.identity();
         shapeRenderer.translate(pos.x,pos.y,0);
         shapeRenderer.begin(ShapeRenderer.ShapeType.Line);
@@ -102,7 +106,6 @@ public class Asteroid extends Shape {
         return super.toString() +
                 "Asteroid{" +
                 "points=" + points +
-                ", done=" + done +
                 ", moveAmount=" + moveAmount +
                 ", moveDirection=" + moveDirection +
                 ", xSpeed=" + xSpeed +

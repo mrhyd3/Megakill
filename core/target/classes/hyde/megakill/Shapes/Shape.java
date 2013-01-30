@@ -11,8 +11,12 @@ public abstract class Shape {
     protected double xForwardMomentum = 0;
     protected double yForwardMomentum = 0;
     protected int angleFromLastForwardMovement = 0;
+    protected boolean isDestroyed = false;
 
     public abstract void render(ShapeRenderer shapeRenderer);
+    public void destroy() {
+        isDestroyed = true;
+    }
 
     protected void ifOnEdgeMoveToOppositeEdge() {
         if (pos.x > GlobalValues.screenWidth)

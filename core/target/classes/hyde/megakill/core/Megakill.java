@@ -13,7 +13,6 @@ public class Megakill implements ApplicationListener {
     public void create () {
         Gdx.input.setInputProcessor(new KeyboardAndMouse());
         world  = new World();
-        world.addShape(new PlayerShape());
     }
 
     @Override

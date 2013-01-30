@@ -2,38 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/util/Random.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/target/generated-sources/r/hyde/megakill/android/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/target/generated-sources/r/megakill/android/BuildConfig.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_backend_gwt_sources_0_9_8_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_backend_gwt_sources_0_9_8_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_platform_natives_armeabi_0_9_8_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_platform_natives_armeabi_0_9_8_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_platform_natives_armeabi_v7a_0_9_8_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_platform_natives_armeabi_v7a_0_9_8_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_platform_natives_linux_0_9_8_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_platform_natives_linux_0_9_8_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_platform_natives_mac_0_9_8_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_platform_natives_mac_0_9_8_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_platform_natives_win_0_9_8_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_platform_natives_win_0_9_8_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_sources_0_9_8_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogic_gdx_gdx_sources_0_9_8_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/Megakill-android.iml" afterPath="$PROJECT_DIR$/android/Megakill-android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Megakill-html.iml" afterPath="$PROJECT_DIR$/html/Megakill-html.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Font.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Asteroid.java" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Asteroid.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Megakill.java" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Megakill.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Missile.java" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Missile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/PlayerShape.java" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/PlayerShape.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Shape.java" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Shape.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/World.java" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/World.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Megakill.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359399452197" ignored="false" />
+    <file path="/Dummy.txt" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359567826155" ignored="false" />
     <file path="/fragment.java" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359399786021" ignored="false" />
     <file path="/Random.java" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359399855441" ignored="false" />
-    <file path="/Asteroid.java" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359406128293" ignored="false" />
+    <file path="/Asteroid.java" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359575119916" ignored="false" />
     <file path="/a.dummy" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359401008739" ignored="false" />
     <file path="$PROJECT_DIR$/../test/untitled/src/Testproject.java" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359401333442" ignored="false" />
     <file path="/Testproject.java" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359401333083" ignored="false" />
+    <file path="/PlayerShape.java" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359572929929" ignored="false" />
+    <file path="/World.java" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359575568958" ignored="false" />
+    <file path="/Missile.java" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359572941590" ignored="false" />
+    <file path="/Shape.java" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359574286869" ignored="false" />
+    <file path="/BitmapFont.java" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359576220847" ignored="false" />
+    <file path="/Font.java" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359576196629" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +40,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -83,7 +75,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -93,10 +85,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Asteroid.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Asteroid.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Asteroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="35" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.49668875">
+            <state line="81" column="72" selection-start="2815" selection-end="2815" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,10 +96,42 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Shape.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="44" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="World.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/World.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="25" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+            <state line="43" column="0" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#552#559#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Font.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Font.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="36" selection-start="401" selection-end="401" vertical-scroll-proportion="0.3030303">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Megakill.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Megakill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="29" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,7 +149,22 @@
       <file leaf-file-name="PlayerShape.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/PlayerShape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+            <state line="120" column="5" selection-start="3730" selection-end="3730" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#763#772#0" expanded="true" />
+                <element signature="e#1663#1817#0" expanded="true" />
+                <element signature="e#1806#1807#0" expanded="true" />
+                <element signature="e#1872#2006#0" expanded="true" />
+                <element signature="e#1995#1996#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Missile.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Missile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,8 +199,14 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/hyde/megakill/util/Random.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/World.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Missile.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Megakill.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/PlayerShape.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Shape.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Asteroid.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/World.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/BitmapFont.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Font.java" />
       </list>
     </option>
   </component>
@@ -236,9 +281,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="625" />
-    <option name="y" value="193" />
-    <option name="width" value="1404" />
+    <option name="x" value="578" />
+    <option name="y" value="169" />
+    <option name="width" value="1460" />
     <option name="height" value="934" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -267,8 +312,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -497,18 +540,21 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/core/src/main/java/hyde/megakill" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/core/src/main/java/hyde/megakill" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -567,6 +613,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -592,19 +651,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -682,30 +728,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="625" y="193" width="1404" height="934" extended-state="0" />
+    <frame x="578" y="169" width="1460" height="934" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923833" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923833" sideWeight="0.49779087" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923833" sideWeight="0.49779087" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.115611196" sideWeight="0.7923833" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11244696" sideWeight="0.7923833" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19808541" sideWeight="0.7923833" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2076167" sideWeight="0.4970545" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19024046" sideWeight="0.7923833" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2076167" sideWeight="0.4970545" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -768,17 +814,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Asteroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="12" selection-start="1196" selection-end="1396" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="38" column="35" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/World.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="25" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#552#559#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -792,13 +843,93 @@
     <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/PlayerShape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#763#772#0" expanded="true" />
+            <element signature="e#1663#1817#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1872#2006#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="12" selection-start="1196" selection-end="1396" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="12" selection-start="1196" selection-end="1396" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Megakill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Missile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/PlayerShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="5" selection-start="3730" selection-end="3730" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#763#772#0" expanded="true" />
+            <element signature="e#1663#1817#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1872#2006#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Asteroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="35" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.49668875">
+        <state line="81" column="72" selection-start="2815" selection-end="2815" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="44" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#552#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="36" selection-start="401" selection-end="401" vertical-scroll-proportion="0.3030303">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

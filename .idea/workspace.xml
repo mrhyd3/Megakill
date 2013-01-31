@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Hud.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Asteroid.java" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/shapes/Asteroid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Font.java" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Font.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/GlobalValues.java" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/GlobalValues.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Megakill.java" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/Megakill.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/World.java" afterPath="$PROJECT_DIR$/core/src/main/java/hyde/megakill/core/World.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" name="Default" comment="" />
     <ignored path="Megakill.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="deb30b42-9dc8-4ce9-889d-28cecc32cdcd" time="1359657788192" ignored="false" />

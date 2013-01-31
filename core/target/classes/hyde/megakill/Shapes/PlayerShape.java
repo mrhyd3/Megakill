@@ -68,21 +68,21 @@ public class PlayerShape extends Shape {
 
     private void moveBackwards() {
         if (speed > 0) {
-            speed-=speedIncrement * Gdx.graphics.getDeltaTime();
+            speed-=speedIncrement;
             calc(false);
         }
     }
 
     private void moveForward() {
-        speed+=speedIncrement  * Gdx.graphics.getDeltaTime();
+        speed+=speedIncrement;
         calc(true);
     }
 
     public void rotateLeft() {
-        angle -= rotateSpeed  * Gdx.graphics.getDeltaTime();
+        angle -= rotateSpeed;
     }
     public void rotateRight() {
-        angle += rotateSpeed  * Gdx.graphics.getDeltaTime();
+        angle += rotateSpeed;
     }
     public void shoot() {
         if ( weaponHeat <= 0 ) {

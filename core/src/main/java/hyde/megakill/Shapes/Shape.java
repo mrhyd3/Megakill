@@ -1,5 +1,6 @@
 package hyde.megakill.shapes;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.math.Vector2;
 import hyde.megakill.core.GlobalValues;
@@ -12,6 +13,7 @@ public abstract class Shape {
     protected double yForwardMomentum = 0;
     protected int angleFromLastForwardMovement = 0;
     protected boolean isDestroyed = false;
+    protected float size;
 
     public abstract void render(ShapeRenderer shapeRenderer);
     public void destroy() {
@@ -31,12 +33,12 @@ public abstract class Shape {
 
     protected void calc(boolean changeAngle) {
         if (changeAngle) {
-            xForwardMomentum = Math.sin(Math.toRadians(-angle)) * speed;
-            yForwardMomentum = Math.cos(Math.toRadians(-angle)) * speed;
+            xForwardMomentum = Math.cos(Math.toRadians(angle)) * speed;
+            yForwardMomentum = Math.sin(Math.toRadians(angle)) * speed;
             angleFromLastForwardMovement = angle;
         } else {
-            xForwardMomentum = Math.sin(Math.toRadians(-angleFromLastForwardMovement)) * speed;
-            yForwardMomentum = Math.cos(Math.toRadians(-angleFromLastForwardMovement)) * speed;
+            xForwardMomentum = Math.cos(Math.toRadians(angleFromLastForwardMovement)) * speed * Gdx.graphics.getDeltaTime();
+            yForwardMomentum = Math.sin(Math.toRadians(angleFromLastForwardMovement)) * speed * Gdx.graphics.getDeltaTime();
         }
         pos.x += xForwardMomentum;
         pos.y += yForwardMomentum;
@@ -56,6 +58,10 @@ public abstract class Shape {
                 ", yForwardMomentum=" + yForwardMomentum +
                 ", angleFromLastForwardMovement=" + angleFromLastForwardMovement +
                 '}';
+    }
+
+    public float getSize() {
+        return size;
     }
 }
 

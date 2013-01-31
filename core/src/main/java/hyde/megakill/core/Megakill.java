@@ -21,10 +21,10 @@ public class Megakill implements ApplicationListener {
 
     @Override
     public void render () {
+        GlobalValues.time += Gdx.graphics.getDeltaTime();
         Gdx.gl.glClearColor(0, 0, 0, 0);
         Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
         world.render();
-
     }
 
     @Override
